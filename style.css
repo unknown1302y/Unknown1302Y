@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(Assets/7.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.logo {
+    color: black;
+    font-size: 60px;
+    font-family: serif;
+    padding-inline-start: 250px;
+    float: left;
+    padding-top: 1.5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu {
+    width: 100px;
+    float: inline-start;
+    height: 70px;
+
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+
+ul li a {
+    text-decoration: whitesmoke;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-weight: bolder;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.content {
+    float: left;
+    padding-right: 2000px;
+    padding-top: 50px;
+    width: 1200px;
+    font-family: Georgia;
+    font-style: oblique;
+    font-weight: 100;
+    position: absolute;
+    top: 154px;
+    left: 0px;
+}
+
+strong ul li {
+    font-size: 60px;
+    padding-right: 10px;
+    
+}
+
